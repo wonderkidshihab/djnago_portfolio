@@ -1,0 +1,48 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shihab Uddin | Flutter Dev</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    {% tailwind_css %}
+  </head>
+
+  <body class="bg-gray-50 font-mono leading-normal tracking-normal">
+    <div
+      class="text-2xl text-grey-100 bg-gradient-to-r from-green-400 to-blue-500 flex"
+    >
+      <a class="text-4xl font-bold display-block text-white flex-1 p-8"
+        >Shihab</a
+      >
+      <div class="block p-4 float-right">
+        <button
+          class="p-4 rounded-lg text-slate-50 font-bold hover:text-slate-300"
+        >
+          Home
+        </button>
+        <button
+          class="p-4 rounded-lg text-slate-50 font-bold hover:text-slate-300"
+        >
+          Portfoio
+        </button>
+        <button
+          class="p-4 rounded-lg text-slate-50 font-bold hover:text-slate-300"
+        >
+          Blog
+        </button>
+        <button
+          class="p-4 rounded-lg text-slate-50 font-bold hover:text-slate-300"
+        >
+          About
+        </button>
+        <button
+          class="p-4 rounded-lg text-slate-50 font-bold hover:text-slate-300"
+        >
+          Contact
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
